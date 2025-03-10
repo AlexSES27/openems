@@ -1,4 +1,4 @@
-<oe-modal [title]="this.component.alias" [component]="component" [formGroup]="formGroup" *ngIf="isInitialized">
+ <oe-modal [title]="this.component.alias" [component]="component" [formGroup]="formGroup" *ngIf="isInitialized">
 
   <oe-modal-line [name]="'General.state' | translate" [channelAddress]="component.id + '/_PropertyMode'"
     [converter]="CONVERT_MANUAL_ON_OFF">
@@ -33,7 +33,8 @@
 
 </oe-modal>
 
-<ion-col size="12" *ngSwitchCase="'Controller.Ess.FixActivePower'" size-lg="6" class="ion-no-padding">
-  <Controller_Ess_FixActivePower [componentId]="widget.componentId">
-  </Controller_Ess_FixActivePower>
+<ion-col size="12" *ngSwitchCase="'Controller.Ess.Test'"
+size-lg="6" class="ion-no-padding">
+    <Controller_Ess_Test [componentId]="widget.componentId">
+    </Controller_Ess_Test>
 </ion-col>

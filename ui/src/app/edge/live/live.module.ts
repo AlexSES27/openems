@@ -16,6 +16,7 @@ import { Controller_ChpSocComponent } from "./Controller/ChpSoc/ChpSoc";
 import { Controller_ChpSocModalComponent } from "./Controller/ChpSoc/modal/modal.component";
 import { Controller_Ess_FixActivePower } from "./Controller/Ess/FixActivePower/Ess_FixActivePower";
 import { Controller_Ess_GridOptimizedCharge } from "./Controller/Ess/GridOptimizedCharge/Ess_GridOptimizedCharge";
+import { Controller_Ess_Test } from "./Controller/Ess/Test/Ess_Test";
 import { Controller_Ess_TimeOfUseTariff } from "./Controller/Ess/TimeOfUseTariff/Ess_TimeOfUseTariff";
 import { AdministrationComponent } from "./Controller/Evcs/administration/administration.component";
 import { Controller_Evcs } from "./Controller/Evcs/Evcs";
@@ -57,6 +58,7 @@ import { Evcs_Api_ClusterModalComponent } from "./Multiple/Evcs_Api_Cluster/moda
     Common_Selfconsumption,
     Controller_Api_ModbusTcp,
     Controller_Ess_FixActivePower,
+    Controller_Ess_Test,
     Controller_Ess_GridOptimizedCharge,
     Controller_Ess_TimeOfUseTariff,
     Controller_Evcs,
